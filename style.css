@@ -1,0 +1,32 @@
+body{
+/*	margin: 0;	
+	padding: 0;	
+	height: 100%;	
+	width: 100%;	*/
+	background-color: black;
+	background-image: url(back.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: right bottom;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: green;
+}
+
+img.tbt{
+width: 30%;
+height: 30%;
+}
+img.lbt{
+width: 30%;
+height: 30%;
+}
