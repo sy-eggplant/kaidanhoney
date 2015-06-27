@@ -1,3 +1,4 @@
+var count=0;
 function talk(){
 	window.location.href = "talkPeople.html";
 }
@@ -8,5 +9,6 @@ function tap(){
 	window.location.href = "index.html";
 }
 function scary(){
-	alert("こわい！");
+	count++;
+	console.log(count);
 }
