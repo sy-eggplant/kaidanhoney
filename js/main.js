@@ -7,3 +7,6 @@ function listen(){
 function tap(){	
 	window.location.href = "index.html";
 }
+function scary(){
+	alert("こわい！");
+}

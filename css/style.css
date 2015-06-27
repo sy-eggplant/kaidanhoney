@@ -3,12 +3,12 @@ body{
 	padding: 0;	
 	height: 100%;	
 	width: 100%;	*/
-	background-color: black;
-	background-image: url(back.png);
+
+background-image: url(../img/back.png);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: right bottom;
-}
+background-color: black;}
 
 h1 {
   color: red;
@@ -29,4 +29,14 @@ height: 30%;
 img.lbt{
 width: 30%;
 height: 30%;
+}
+img.rbt{
+background-attachment: fixed;
+background-position: right;
+width: 20%;
+height: 20%;
+}
+img.kbt{
+width: 10%;
+height: 10%;
 }
