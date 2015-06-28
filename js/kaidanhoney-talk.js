@@ -32,7 +32,7 @@ navigator.getUserMedia({audio: true, video: true}, function (stream) {
             console.log(data);
             kowaiCount++;
             conn.send(kowaiCount);
-            document.getElementById("kawanum").innerHTML=kowaiCount;
+            document.getElementById("kowanum").innerText=kowaiCount+'回怖がられました';
         })
     });
 
