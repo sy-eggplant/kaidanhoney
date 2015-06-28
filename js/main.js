@@ -14,3 +14,6 @@ function tap(){
 function chooseRoom(){
 window.location.href = "choiceRoom.html";	
 }
+function DB(){	
+	window.location.href = "database.html";
+}

@@ -46,3 +46,23 @@ height: 40px;
 video{
 	width: 350px;
 }
+table{
+width: 80%;
+border-collapse: collapse;
+}
+th{
+width: 16%;
+padding: 6px;
+text-align: left;
+vertical-align: top;
+color: red;
+background-color: black;
+border: 1px solid #b9b9b9;
+}
+td{
+padding: 6px;
+color: white;
+background-color: black;
+border: 1px solid #b9b9b9;
+}
+
