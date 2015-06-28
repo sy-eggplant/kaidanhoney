@@ -12,16 +12,26 @@
 
 </head>
 <body>
+
+	<audio id="bgm01" preload="auto">
+	<source src="sound/bgm01.mp3" type="audio/mp3">
+	</audio>
+	<audio id="se01" preload="auto">
+	<source src="sound/se01.mp3" type="audio/mp3">
+	</audio>
+
 <h1>話す人の画面</h1>
 
 
 <div id="video_box">
 
 </div>
- <img src="img/bgmbt.png" class="kbt">
-	 <img src="img/soundbt.gif" class="kbt">
+	<p id="kowanum"><font color="#ff0000">0</font></p>
+	 <img src="img/bgmbt.png" class="kbt" onclick="playBGM('bgm01')">
+	 <img src="img/soundbt.gif" class="kbt" onclick="playSE('se01')">
+	 <img src="img/rokuon.gif" class="kbt">
 <div style="text-align:right;">
-   <img src="img/modoru.png" class="rbt" onclick="tap()"></input>
+   	<img src="img/modoru.png" class="rbt" onclick="tap()"></input>
 </div>
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://skyway.io/dist/0.3/peer.js"></script>
