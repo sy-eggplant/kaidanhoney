@@ -46,7 +46,8 @@ height: 40px;
 video{
 	width: 350px;
 }
-table{
+
+table.room{
 width: 80%;
 border-collapse: collapse;
 }
@@ -57,12 +58,15 @@ text-align: left;
 vertical-align: top;
 color: red;
 background-color: black;
-border: 1px solid #b9b9b9;
+border: 1px solid gray;
 }
 td{
 padding: 6px;
 color: white;
 background-color: black;
-border: 1px solid #b9b9b9;
+border: 1px solid gray;
 }
 
+table.genroom{
+width: 40%;
+border-collapse: collapse;
