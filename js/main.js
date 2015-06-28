@@ -11,3 +11,6 @@ function listen(){
 function tap(){	
 	window.location.href = "index.html";
 }
+function chooseRoom(){
+window.location.href = "choiceRoom.html";	
+}
