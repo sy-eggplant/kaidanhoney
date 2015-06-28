@@ -17,7 +17,7 @@ navigator.getUserMedia({audio: true, video: true}, function (stream) {
         });
 
 
-        call.on("close", function() {
+        call.on("close", function() {   //退室した時の処理
             $("#"+call.peer).remove();
         });
     });
