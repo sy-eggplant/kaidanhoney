@@ -1,4 +1,7 @@
 
+function makeRoom(){
+	window.location.href = "genRoom.html";
+}
 function talk(){
 	window.location.href = "talkPeople.html";
 }

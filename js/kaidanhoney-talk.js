@@ -47,3 +47,21 @@ function playBGM(bgmId){
     document.getElementById(bgmId).play();
 }
 
+function bikkuri(){
+    // tunagi
+
+    peer.listAllPeers(function(list){
+
+
+    var conn = peer.connect(list[0]);
+    conn.on("open", function() {
+        // 繋がった後，この中が動作する
+        console.log(list[0]);
+        conn.send("send bikkuri.");
+    });
+
+    conn.on("data", function(data) {
+ 
+    });
+      });
+}

@@ -23,6 +23,15 @@ navigator.getUserMedia({audio: true, video: true}, function (stream) {
         console.log("completed!");
     });
     */
+     peer.on("connection", function(conn) {
+        // 繋がったらここが呼ばれる
+        
+        conn.on("data", function(data) {
+            // データがきたらこの中が動作する
+            console.log(data);
+           document.getElementById("gaiko").style.display="";
+        })
+    });
 
 }, function(error) {});
 
@@ -39,7 +48,4 @@ function scary(){
         console.log("怖いカウント:"+data);
         console.log("completed!");
     });
-
-
-
 }
